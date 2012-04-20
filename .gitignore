@@ -1,6 +1,5 @@
 *.class
 *.pyc
 *.pyo
-.project
-.pydevproject
 croots_exp/local_settings.py
+.gitignore
