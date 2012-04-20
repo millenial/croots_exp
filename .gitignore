@@ -4,3 +4,5 @@
 .project
 .pydevproject
 croots_exp/local_settings.py
+croots_exp/wsgi.py
+master
