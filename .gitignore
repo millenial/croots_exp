@@ -2,4 +2,5 @@
 *.pyc
 *.pyo
 croots_exp/local_settings.py
+croots_exp/wsgi.py
 .gitignore
