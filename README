@@ -1,0 +1,4 @@
+Django test project. 
+Please create a file named 'local_settings.py' in the root folder of your project
+Copy all your local settings into local_settings.py
+Do not attempt to modify settings.py
