@@ -1,0 +1,10 @@
+<html><head><title>Favorite Foods - test</title></head>
+<body>
+	<h1>Favorite Foods</h1>
+	<ul>
+		{% for r in results %}
+			<li><span style="font-weight:bold;">{{r.name }}</span> -- {{r.favoriteFood }}</li>
+		{% endfor %}
+	</ul>
+</body>
+</html>
