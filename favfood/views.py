@@ -8,8 +8,9 @@ def getAllInformation(request):
     foods = UserLikesFood.objects.all()
     
     results = {}
-    
-    for f in foods:
-        results.add(User.objects.get())
+    users = User.objects.all()
+    for x in users:
+        myfood = UserLikesFood.objects.get(userid__id = x.id)
+        results[x.username] = myfood.favoriteFood
     
     return render_to_response('food.html', {'results': results})

@@ -6,5 +6,5 @@ from userinfo.models import User
 class UserLikesFood(models.Model):
     def __unicode__(self):
         return self.favoriteFood
-    user_id = models.ForeignKey(User)
+    userid = models.ForeignKey('userinfo.User')
     favoriteFood = models.CharField(max_length=100)
